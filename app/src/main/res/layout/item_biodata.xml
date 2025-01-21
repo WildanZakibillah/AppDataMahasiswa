@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@android:drawable/editbox_background_normal"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama: "
+        android:textSize="18sp"
+        android:textColor="@color/maroon"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_tgl_lahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir: "
+        android:textSize="18sp"
+        android:textColor="@color/maroon"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_kabupaten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jurusan: "
+        android:textSize="18sp"
+        android:textColor="@color/maroon"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_agama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NPM: "
+        android:textSize="18sp"
+        android:textColor="@color/maroon"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_jenis_kelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin: "
+        android:textSize="18sp"
+        android:textColor="@color/maroon"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skill: "
+        android:textSize="18sp"
+        android:textColor="@color/maroon"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>

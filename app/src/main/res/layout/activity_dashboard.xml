@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/iconlatar">
+
+    <!-- Judul Form -->
+    <TextView
+        android:id="@+id/tv_biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIODATA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/maroon"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Input Nama -->
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Input Tanggal Lahir -->
+    <EditText
+        android:id="@+id/et_tanggal_lahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Tempat/Tanggal/Lahir"
+        android:inputType="date"
+        android:padding="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- EditText Kabupaten -->
+    <EditText
+        android:id="@+id/et_kabupaten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Jurusan"
+        android:inputType="text"
+        android:padding="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- EditText Agama -->
+    <EditText
+        android:id="@+id/et_agama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="NPM"
+        android:inputType="text"
+        android:padding="10dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Label Jenis Kelamin -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:textStyle="bold"
+        android:textColor="@color/maroon"
+        android:layout_marginTop="8dp" />
+
+    <!-- Pilihan Jenis Kelamin -->
+    <RadioGroup
+        android:id="@+id/rg_jenis_kelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <RadioButton
+            android:id="@+id/rb_pria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/maroon"
+            android:textStyle="bold"
+            android:layout_marginRight="100dp"
+            android:text="Pria" />
+
+        <RadioButton
+            android:id="@+id/rb_wanita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/maroon"
+            android:textStyle="bold"
+            android:text="Wanita" />
+    </RadioGroup>
+
+
+    <!-- Label Skill -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skill"
+        android:textStyle="bold"
+        android:textColor="@color/maroon"
+        android:layout_marginTop="10dp" />
+
+    <!-- Pilihan Skill -->
+    <CheckBox
+        android:id="@+id/cb_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Web Programming"
+        android:layout_marginTop="10dp" />
+
+    <CheckBox
+        android:id="@+id/cb_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Mobile Programming"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_desktop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Desktop Programming"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Networking"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Tombol Aksi -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLEAR"
+            android:textStyle="bold"
+            android:layout_marginRight="90dp"
+            android:backgroundTint="@color/lightcoral"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIEW"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@color/lightcoral"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
